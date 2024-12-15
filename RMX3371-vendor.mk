@@ -491,12 +491,20 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
     vendor/realme/RMX3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/realme/RMX3371/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
+    vendor/realme/RMX3371/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
     vendor/realme/RMX3371/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/realme/RMX3371/proprietary/odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc \
     vendor/realme/RMX3371/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/RMX3371/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/realme/RMX3371/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/RMX3371/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/realme/RMX3371/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
+    vendor/realme/RMX3371/proprietary/odm/etc/libdapparamstorage_v3_6_etc.so:$(TARGET_COPY_OUT_ODM)/etc/libdapparamstorage_v3_6_etc.so \
+    vendor/realme/RMX3371/proprietary/odm/etc/libdeccfg_v3_6_etc.so:$(TARGET_COPY_OUT_ODM)/etc/libdeccfg_v3_6_etc.so \
+    vendor/realme/RMX3371/proprietary/odm/etc/libdlbdsservice_v3_6_etc.so:$(TARGET_COPY_OUT_ODM)/etc/libdlbdsservice_v3_6_etc.so \
+    vendor/realme/RMX3371/proprietary/odm/etc/libqtigef_etc.so:$(TARGET_COPY_OUT_ODM)/etc/libqtigef_etc.so \
+    vendor/realme/RMX3371/proprietary/odm/etc/libstagefright_soft_ddpdec_etc.so:$(TARGET_COPY_OUT_ODM)/etc/libstagefright_soft_ddpdec_etc.so \
+    vendor/realme/RMX3371/proprietary/odm/etc/libstagefrightdolby_etc.so:$(TARGET_COPY_OUT_ODM)/etc/libstagefrightdolby_etc.so \
     vendor/realme/RMX3371/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/realme/RMX3371/proprietary/odm/etc/sensor/config/kona_qrd_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_ak991x_0.json \
     vendor/realme/RMX3371/proprietary/odm/etc/sensor/config/kona_qrd_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_alsps.json \
@@ -511,6 +519,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/odm/etc/sensor/config/kona_qrd_mn29005.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_mn29005.json \
     vendor/realme/RMX3371/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
     vendor/realme/RMX3371/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/realme/RMX3371/proprietary/odm/etc/soundfx/libhwdap_v3_6_etc.so:$(TARGET_COPY_OUT_ODM)/etc/soundfx/libhwdap_v3_6_etc.so \
+    vendor/realme/RMX3371/proprietary/odm/etc/soundfx/libswdap_v3_6_etc.so:$(TARGET_COPY_OUT_ODM)/etc/soundfx/libswdap_v3_6_etc.so \
+    vendor/realme/RMX3371/proprietary/odm/etc/vendor.dolby_v3_6.hardware.dms360@2.0-impl_etc.so:$(TARGET_COPY_OUT_ODM)/etc/vendor.dolby_v3_6.hardware.dms360@2.0-impl_etc.so \
+    vendor/realme/RMX3371/proprietary/odm/etc/vendor.dolby_v3_6.hardware.dms360@2.0_etc.so:$(TARGET_COPY_OUT_ODM)/etc/vendor.dolby_v3_6.hardware.dms360@2.0_etc.so \
     vendor/realme/RMX3371/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
     vendor/realme/RMX3371/proprietary/odm/firmware/100ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/100ms_RTP.bin \
     vendor/realme/RMX3371/proprietary/odm/firmware/120ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/120ms_RTP.bin \
@@ -1559,6 +1571,9 @@ PRODUCT_PACKAGES += \
     libcommcenterfw \
     libcommcenterutils \
     libcvface_api \
+    libdapparamstorage_v3_6 \
+    libdeccfg_v3_6 \
+    libdlbdsservice_v3_6 \
     libdmtp-protos-lite \
     libdmtp \
     libdmtpclient \
@@ -1587,6 +1602,7 @@ PRODUCT_PACKAGES += \
     libpngwrapper \
     libpwirisfeature_odm \
     libpwirishalwrapper_odm \
+    libqtigef \
     libshdr_stub \
     libsnpe_dsp_domains_v2 \
     libsnpe_dsp_domains_v3 \
@@ -1605,6 +1621,10 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     sensors.hal.tof \
+    libhwdap_v3_6 \
+    libswdap_v3_6 \
+    vendor.dolby_v3_6.hardware.dms360@2.0-impl \
+    vendor.dolby_v3_6.hardware.dms360@2.0 \
     vendor.oplus.hardware.appradio@1.0 \
     vendor.oplus.hardware.biometrics.fingerprint@2.1_odm \
     vendor.oplus.hardware.cameraextension-V1-service-impl \
@@ -1661,6 +1681,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_osiesr.xml \
     vendor.qti.gnss@4.0-service.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
+    manifest_dax_dolby_v3_6.xml \
     manifest_oplusSensor.xml \
     manifest_oplus_fingerprint.xml \
     adpl \
@@ -1732,6 +1753,7 @@ PRODUCT_PACKAGES += \
     tcmd \
     wfdservice \
     android.hardware.drm@1.3-service.widevine \
+    vendor.dolby_v3_6.hardware.dms360@2.0-service \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor.qti.esepowermanager@1.1-service \
@@ -1741,6 +1763,16 @@ PRODUCT_PACKAGES += \
     vl53l1_daemon_main
 
 PRODUCT_PACKAGES += \
+    odm_lib_libdapparamstorage_v3_6_so \
+    odm_lib_libdeccfg_v3_6_so \
+    odm_lib_libdlbdsservice_v3_6_so \
+    odm_lib_libqtigef_so \
+    odm_lib_libstagefright_soft_ddpdec_so \
+    odm_lib_libstagefrightdolby_so \
+    odm_lib_soundfx_libhwdap_v3_6_so \
+    odm_lib_soundfx_libswdap_v3_6_so \
+    odm_lib_vendor_dolby_v3_6_hardware_dms360@2_0-impl_so \
+    odm_lib_vendor_dolby_v3_6_hardware_dms360@2_0_so \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
