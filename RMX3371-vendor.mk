@@ -1516,9 +1516,14 @@ PRODUCT_PACKAGES += \
     libapsexif \
     libapsjpeg \
     libapspng \
+    libarc.ion \
     libarcsoft_aicolor_image \
     libarcsoft_aicolor_video \
     libarcsoft_distortion_correction \
+    libarcsoft_dualcam_bokeh_api \
+    libarcsoft_dualcam_refocus_left \
+    libarcsoft_dualcam_refocus_preview \
+    libarcsoft_dualcam_refocus_uw \
     libarcsoft_hdr_couple_api \
     libarcsoft_hdr_couple_api_v4 \
     libarcsoft_hdr_denoise_api \
