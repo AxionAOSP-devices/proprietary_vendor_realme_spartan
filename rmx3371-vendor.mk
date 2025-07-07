@@ -1773,6 +1773,9 @@ PRODUCT_PACKAGES += \
     odm_lib_soundfx_libswdap_v3_6_so \
     odm_lib_vendor_dolby_v3_6_hardware_dms360@2_0-impl_so \
     odm_lib_vendor_dolby_v3_6_hardware_dms360@2_0_so \
+    vendor_lib64_camera_components_com_qti_stats_haf_so \
+    vendor_lib64_camera_components_com_qti_stats_pdlib_so \
+    vendor_lib64_libipebpsstriping_so \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
