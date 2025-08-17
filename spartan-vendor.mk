@@ -1091,6 +1091,7 @@ PRODUCT_PACKAGES += \
     libapsexif \
     libapsjpeg \
     libapspng \
+    libarc.ion \
     libarcsoft_aicolor_image \
     libarcsoft_aicolor_video \
     libarcsoft_distortion_correction \
@@ -1115,6 +1116,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_portraitSN_hvx_stub \
     libarcsoft_portrait_super_night_raw \
     libarcsoft_preview_antibanding \
+    libarcsoft_qnnhtp \
     libarcsoft_scbokeh_image \
     libarcsoft_scbokeh_video \
     libarcsoft_smart_denoise \
